@@ -68,6 +68,14 @@ fun GreetingsText(
                 .padding(16.dp)
                 .align(Alignment.End),
         )
+
+        Text(
+            text = "This is a test application btw.",
+            fontSize = 10.sp,
+            modifier = Modifier
+                .padding(top = 16.dp)
+                .align(Alignment.CenterHorizontally)
+        )
     }
     
 }
